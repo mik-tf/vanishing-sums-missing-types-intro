@@ -11,6 +11,8 @@ date_footer: "YYYY-MM-DD"
 header_title: "Which ways of adding up to zero did a list miss?"
 ---
 
+DOI of this text: [doi:10.5281/zenodo.24576582](https://doi.org/10.5281/zenodo.24576582)
+
 This is an introductory text to the research paper *Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21* [Per26], by the same author. The paper has the proofs and the full computations. This note has the idea. No equations are needed to follow it. It makes no claim the paper does not make, and it says which claims are proved and which are only computed.
 
 # Arrows that cancel
