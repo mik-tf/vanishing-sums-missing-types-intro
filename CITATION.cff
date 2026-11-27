@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Which ways of adding up to zero did a list miss? Introductory text to Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21"
+type: generic
+authors:
+  - family-names: Perreault
+    given-names: Michaël
+    orcid: "https://orcid.org/0009-0003-0017-7658"
+    affiliation: "Independent researcher"
+version: "1.0"
+date-released: "2026-11-27"
+license: CC-BY-4.0
+keywords:
+  - vanishing sums
+  - roots of unity
+  - classification
+  - cyclotomic
+references:
+  - type: article
+    title: "Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21"
+    authors:
+      - family-names: Perreault
+        given-names: Michaël
+    doi: "10.5281/zenodo.24562183"
+    year: 2026
