@@ -99,7 +99,7 @@ A classification is a tool: others build on it. A table that is called conjectur
 
 # Use of AI {-}
 
-Claude (Anthropic) was used in November 2026, under the author's direction, for exploratory computation, derivations, code, checks, literature search and drafting.
+Claude (Anthropic) was used in November 2026, under the author's direction, for drafting, figures and checks.
 
 # Read the research paper {-}
 
