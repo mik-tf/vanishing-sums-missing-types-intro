@@ -59,7 +59,7 @@ This is a good habit in general. If a list is claimed to be complete, check it a
 
 The third result is a computation, and it is labelled **computed**. We wrote a new search from scratch. It uses only two known facts, works in exact whole-number arithmetic, imports none of the authors' code, and checks every sum it finds with a separate verifier. Run on weights 2 to 16, it reproduces the proved classification exactly. That is our test that the search is sound.
 
-At weights 17 to 21 it finds every sum in the table (after the minimality filter of the authors' own program), plus extra ones. The table's list of sums at weight 17 has 8258 rotation classes. Ours has 8260. The paper gives the same comparison up to weight 21, with a count of the extra sums in each row.
+At weights 17 to 21 it finds every sum in the table (after the minimality filter of the authors' own program), plus extra ones. The table's list of sums at weight 17 has 8258 rotation classes. Ours has 8260. A different group, in a record on Zenodo, had already reported 8260 as a provisional total; it did not compare it with the table [WDR]. The paper gives the same comparison up to weight 21, with a count of the extra sums in each row.
 
 ![The extra sums found by our search, in numbers (on the bars) and as a share of what the table lists, for weights 17 to 21. Values from the paper's comparison table.](figures/intro_fig4_counts.png){width=70%}
 
@@ -86,16 +86,7 @@ A classification is a tool: others build on it. A table that is called conjectur
 
 - The paper itself [Per26], with the proofs, the tables and the commands to rerun every computation.
 - The classification we checked [CDK].
-
-# References {-}
-
-[CDK] L. Christie, K. J. Dykema, I. Klep, *Classifying minimal vanishing sums of roots of unity*, arXiv:2008.11268 (v2, December 2025), [doi:10.48550/arXiv.2008.11268](https://doi.org/10.48550/arXiv.2008.11268).
-
-[Per26] M. Perreault, *Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21*, 2026, Zenodo. [doi:10.5281/zenodo.24562183](https://doi.org/10.5281/zenodo.24562183).
-
-```{=latex}
-\par\ifdim\dimexpr\pagegoal-\pagetotal\relax<15\baselineskip\ifdim\pagetotal>0pt\newpage\fi\fi
-```
+- The earlier record of provisional totals [WDR].
 
 # Use of AI {-}
 
@@ -110,3 +101,15 @@ Claude (Anthropic) was used in November 2026, under the author's direction, for 
 The full paper, with the proofs, is *Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21*, by Michaël Perreault.
 
 DOI: [doi:10.5281/zenodo.24562183](https://doi.org/10.5281/zenodo.24562183)
+
+```{=latex}
+\par\ifdim\dimexpr\pagegoal-\pagetotal\relax<15\baselineskip\ifdim\pagetotal>0pt\newpage\fi\fi
+```
+
+# References {-}
+
+[CDK] L. Christie, K. J. Dykema, I. Klep, *Classifying minimal vanishing sums of roots of unity*, arXiv:2008.11268 (v2, December 2025), [doi:10.48550/arXiv.2008.11268](https://doi.org/10.48550/arXiv.2008.11268).
+
+[Per26] M. Perreault, *Missing types in the conjectural classification of minimal vanishing sums of roots of unity of weights 17 to 21*, 2026, Zenodo. [doi:10.5281/zenodo.24562183](https://doi.org/10.5281/zenodo.24562183).
+
+[WDR] G. J. Ward, B. W. Daugherty, S. M. Ryan, *Minimal vanishing sums of roots of unity: counts to weight 16, restricted conductor-210 enumerations to weight 27, rational dimension up to seventeen, and bonds of K_{p,q} for the minimal sums of 2pq-th roots*, Zenodo, versions 1.0 (2026-10-19) to 1.5 (2026-10-26), [doi:10.5281/zenodo.23483793](https://doi.org/10.5281/zenodo.23483793).

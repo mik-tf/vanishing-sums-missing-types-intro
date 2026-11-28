@@ -7,7 +7,7 @@ authors:
     given-names: Michaël
     orcid: "https://orcid.org/0009-0003-0017-7658"
     affiliation: "Independent researcher"
-version: "1.0.1"
+version: "1.0.2"
 date-released: "2026-11-27"
 doi: "10.5281/zenodo.24576582"
 repository-code: "https://github.com/mik-tf/vanishing-sums-missing-types-intro"
